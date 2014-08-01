@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="action_icon_x">500</integer>
+    <integer name="action_icon_y">30</integer>
+    <integer name="rec_icon_x">10</integer>
+    <integer name="rec_icon_y">25</integer>
+    <integer name="current_time_x">5</integer>
+    <integer name="current_time_y">300</integer>
+    <integer name="total_time_x">525</integer>
+    <integer name="total_time_y">300</integer>
+    <integer name="tap_text_x">155</integer>
+    <integer name="tap_text_y">300</integer>
+
+    <integer name="time_text_size">24</integer>
+    <integer name="tap_text_size">42</integer>
+
+</resources>
