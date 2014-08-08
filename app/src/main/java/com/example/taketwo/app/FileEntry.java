@@ -2,7 +2,7 @@ package com.example.taketwo.app;
 
 
 public class FileEntry {
-    private final String filePath;
+    private  String filePath;
     private long fileDuration;
     private long startTime;
 
@@ -12,6 +12,9 @@ public class FileEntry {
         this.fileDuration = fileDuration;
     }
 
+    public void setName(String name){
+        filePath= name;
+    }
     public String getFilePath() {
         return filePath;
     }

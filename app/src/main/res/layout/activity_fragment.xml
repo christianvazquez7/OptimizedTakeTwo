@@ -3,11 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#000000"
     >
 <FrameLayout
     android:id="@+id/fragmentContainer"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:background="#000000">
 
 </FrameLayout>
  <FrameLayout
@@ -15,6 +17,6 @@
         android:layout_width="100dp"
         android:layout_height="100dp">
 
-    </FrameLayout>
+</FrameLayout>
 
 </LinearLayout>

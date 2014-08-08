@@ -154,22 +154,7 @@ public class MediaHUD extends SurfaceView implements SurfaceHolder.Callback {
                 canvas.drawText("Merging...", actionIconX-15, actionIconY+30, timePaint);
             }
 
-            Paint tickMarkPaint = new Paint();
-            tickMarkPaint.setARGB(127, 255, 255, 0);
-            synchronized (lock) {
-                if (tempMarkers != null) {
-                    timeMarkers.clear();
-                    for (Float f : tempMarkers) {
-                        timeMarkers.add(f);
-                    }
-                }
 
-
-
-                for (Float time : timeMarkers) {
-                    canvas.drawRect(time * 570, 300, time * 570 + 5, 320, tickMarkPaint);
-                }
-            }
             Paint bookmarkPaint = new Paint();
             bookmarkPaint.setARGB(127, 46, 199, 0);
             synchronized (block) {
